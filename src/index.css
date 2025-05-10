@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@layer components{
+    .input{
+        @apply placeholder:text-black placeholder:text-[14px] placeholder:opacity-50  bg-white text-black p-2 rounded mt-3 w-[50%];
+    }
+    .add-button{
+        @apply block bg-black text-white mt-10 px-7 py-3 rounded-2xl w-fit  mx-auto border-4 border-transparent hover:border-4 hover:border-white transition duration-500;
+    }
+    .update-button{
+        @apply block bg-blue-800 text-white mt-10 px-7 py-3 rounded-2xl w-fit  mx-auto border-4 border-transparent hover:border-4 hover:border-white  transition duration-500;
+    }
+}
