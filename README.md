@@ -16,5 +16,22 @@ A simple and responsive CRUD (Create, Read, Update, Delete) system built with **
 - CSS / TailwindCSS
 - JavaScript (ES6+)
 - [Axios] (LocalHost)
-- JSON Server (optional for mock backend)
 
+This project uses JSON Server to simulate a RESTful API with a local db.json file.
+
+📦 Requirements
+Make sure you have Node.js installed. Then install JSON Server globally:
+
+npm install -g json-server
+
+Start the JSON Server
+
+From the root directory of the project, run:
+json-server --watch db.json --port 3001
+db.json: Contains the fake data (you can edit it).
+
+--port 6001: You can change this to any available port.
+
+Once the server is running, you'll have a local REST API available at:
+
+http://localhost:6001
